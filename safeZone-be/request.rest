@@ -1,0 +1,11 @@
+### Get Message
+GET http://localhost:3003/message
+
+### Create Message
+POST http://localhost:3003/message
+Content-Type: application/json
+
+{
+    "text": "tolong buatkan artikel singkat 1 paragraf mengenai kenakalan remaja"
+}
+
